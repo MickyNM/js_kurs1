@@ -113,7 +113,18 @@ function racunanje_mesecne_rate(godine, vrsta_nekretnina){
   //console.log (rata + ' eura.');
   console.log (`Mesecna rata za ${vrsta_nekretnina} iznosi ${rata} eura na ${godine} godina.`);
 }
+
 */
+function pokreniMe(dugme){
+  let nazivDugmeta = dugme.innerText;
+  let klasaDugmeta = dugme.className;
+  
+
+  let poruka = document.querySelector('#pisace');
+  poruka.innerText = nazivDugmeta + ' - ' + klasaDugmeta;
+  
+}
+
 
       //RUKOVANJE ELEMENTIMA
   /*
